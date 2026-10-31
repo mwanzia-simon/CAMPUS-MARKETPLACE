@@ -1,10 +1,10 @@
-# 🎓 Campus Marketplace
+#  Campus Marketplace
 
 A student-focused online marketplace designed to make buying and selling products within the campus community easier.
 
 Campus Marketplace connects students who want to sell items with other students looking to buy them. Instead of relying on external marketplaces, students can discover products, connect with sellers, and trade within their campus community.
 
-## 🚀 Project Overview
+##  Project Overview
 
 Campus Marketplace is a full-stack web application built to provide students with a simple and accessible platform for buying and selling products.
 
@@ -18,7 +18,7 @@ The platform aims to create a trusted campus trading environment where students 
 - Save products they are interested in.
 - Communicate with sellers.
 
-## ✨ Planned Features
+##  Planned Features
 
 ### User Management
 - Student registration and login.
@@ -46,7 +46,7 @@ The platform aims to create a trusted campus trading environment where students 
 - Campus-based product discovery.
 - Notifications and other marketplace improvements.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React
@@ -68,7 +68,7 @@ The platform aims to create a trusted campus trading environment where students 
 - Postman
 - Notion
 
-## 🗄️ Database Design
+##  Database Design
 
 The application is designed around the following main collections:
 
@@ -88,7 +88,7 @@ The application is designed around the following main collections:
 - Users can save multiple products as favorites.
 - Users can send and receive messages related to products.
 
-## 📁 Project Structure
+##  Project Structure
 
 The project is organized into separate frontend and backend applications.
 
@@ -119,7 +119,7 @@ campus-marketplace/
 
 *Note: This is a suggested high-level structure; adjust it to match the actual repository.*
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -133,7 +133,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mwanzia-simon/CAMPUS-MARKETPLACE
 cd campus-marketplace
 ```
 
@@ -170,7 +170,7 @@ Vite will provide a local development URL, usually:
 http://localhost:5173
 ```
 
-## 🗺️ Project Roadmap
+##  Project Roadmap
 
 - [ ] Design and implement the User schema.
 - [ ] Create the User model.
@@ -186,13 +186,13 @@ http://localhost:5173
 - [ ] Implement favorites.
 - [ ] Introduce buyer-seller messaging.
 
-## 🎯 Project Goals
+##  Project Goals
 
 The long-term goal is to build a reliable and user-friendly marketplace that simplifies buying and selling within campus communities.
 
 The project also serves as an opportunity to explore full-stack development, database design, REST API development, authentication, and scalable application architecture.
 
-## 🤝 Contributions
+##  Contributions
 
 Contributions, suggestions, and improvements are welcome.
 
@@ -204,6 +204,6 @@ If you would like to contribute:
 4. Commit your changes.
 5. Open a pull request.
 
-## 📄 License
+##  License
 
 This project is currently under development. Licensing details will be added later.
