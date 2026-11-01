@@ -2,8 +2,7 @@ import { Link } from "react-router";
 import { ArrowRight, ShoppingBag } from "lucide-react";
 import CategoryGrid from "../../components/product/CategoryGrid";
 import ProductGrid from "../../components/product/ProductGrid";
-
-
+import { sampleProducts } from "../../assets/assets";
 
 const Home = () => {
   return (
@@ -44,6 +43,30 @@ const Home = () => {
         </div>
       </section>
       <CategoryGrid />
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-8 flex items-end justify-between">
+            <div>
+              <h2 className="text-2xl font-bold text-text-primary">
+                Recently Listed
+              </h2>
+              <p className="mt-2 text-text-secondary">
+                Discover what's new in your campus marketplace.
+              </p>
+            </div>
+
+            <Link
+              to="/products"
+              className="hidden items-center gap-2 text-sm font-medium text-primary hover:text-primary-hover sm:flex"
+            >
+              View all
+              <ArrowRight size={16} />
+            </Link>
+          </div>
+
+          <ProductGrid products={sampleProducts} />
+        </div>
+      </section>
     </div>
   );
 };

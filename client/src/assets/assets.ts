@@ -1,4 +1,7 @@
 import logo from "./logo.png";
+import HP_EliteBook_840_G5 from "./products/HP Elitebook 840 G5.jpg";
+import Samsung_Galaxy_A54 from "./products/Samsung Galaxy A54.jpg";
+import Study_Desk from "./products/Study Desk.jpg";
 import {
   Laptop,
   BookOpen,
@@ -24,7 +27,7 @@ const sampleProducts = [
     price: 25000,
     condition: "Used",
     location: "Nairobi",
-    images: ["/images/laptop.jpg"],
+    images: [HP_EliteBook_840_G5],
   },
   {
     _id: "2",
@@ -32,7 +35,7 @@ const sampleProducts = [
     price: 32000,
     condition: "Like New",
     location: "Nairobi",
-    images: ["/images/phone.jpg"],
+    images: [Samsung_Galaxy_A54],
   },
   {
     _id: "3",
@@ -40,7 +43,7 @@ const sampleProducts = [
     price: 4500,
     condition: "New",
     location: "Nairobi",
-    images: ["/images/desk.jpg"],
+    images: [Study_Desk],
   },
 ];
 
