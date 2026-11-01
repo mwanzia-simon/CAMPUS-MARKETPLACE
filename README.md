@@ -2,6 +2,8 @@
 
 A student-focused online marketplace designed to make buying and selling products within the campus community easier.
 
+![Campus Marketplace](./client/src/assets/screenshots/campus_marketplace.png)
+
 Campus Marketplace connects students who want to sell items with other students looking to buy them. Instead of relying on external marketplaces, students can discover products, connect with sellers, and trade within their campus community.
 
 ##  Project Overview
