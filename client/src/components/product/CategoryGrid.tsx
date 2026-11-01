@@ -1,20 +1,4 @@
-import {
-  Laptop,
-  BookOpen,
-  Shirt,
-  Armchair,
-  Watch,
-  LayoutGrid,
-} from "lucide-react";
-
-const categories = [
-  { name: "Electronics", icon: Laptop },
-  { name: "Books & Stationery", icon: BookOpen },
-  { name: "Clothing", icon: Shirt },
-  { name: "Furniture", icon: Armchair },
-  { name: "Accessories", icon: Watch },
-  { name: "Other", icon: LayoutGrid },
-];
+import { categories } from "../../assets/assets";
 
 const CategoryGrid = () => {
   return (
