@@ -1,6 +1,9 @@
 import { Link } from "react-router";
 import { ArrowRight, ShoppingBag } from "lucide-react";
 import CategoryGrid from "../../components/product/CategoryGrid";
+import ProductGrid from "../../components/product/ProductGrid";
+
+
 
 const Home = () => {
   return (
