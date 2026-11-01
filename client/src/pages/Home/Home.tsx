@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import { ArrowRight, ShoppingBag } from "lucide-react";
+import CategoryGrid from "../../components/product/CategoryGrid";
 
 const Home = () => {
   return (
@@ -39,6 +40,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <CategoryGrid />
     </div>
   );
 };
