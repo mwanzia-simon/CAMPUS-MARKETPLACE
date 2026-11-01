@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router";
-import { Search, Heart, Plus, UserRound, Menu, X, Store } from "lucide-react";
+import { Search, Plus, UserRound, Menu, X } from "lucide-react";
 import { logo } from "../../assets/assets";
 
 const Navbar = () => {
@@ -14,11 +14,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-md">
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg">
             <img src={logo} alt="logo" />
-            {/* <Store size={21} className="text-white" /> */}
           </div>
 
           <div className="leading-tight">
