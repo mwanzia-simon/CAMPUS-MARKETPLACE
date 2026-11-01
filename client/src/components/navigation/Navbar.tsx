@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { NavLink, Link } from "react-router";
 import { Search, Heart, Plus, UserRound, Menu, X, Store } from "lucide-react";
+import { logo } from "../../assets/assets";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +17,8 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary">
-            <Store size={21} className="text-white" />
+            <img src={logo} alt="logo" />
+            {/* <Store size={21} className="text-white" /> */}
           </div>
 
           <div className="leading-tight">
