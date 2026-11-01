@@ -67,6 +67,38 @@ const Home = () => {
           <ProductGrid products={sampleProducts} />
         </div>
       </section>
+      <section className="px-6 py-20">
+        <div className="mx-auto max-w-7xl">
+          <div className="relative overflow-hidden rounded-2xl border border-border bg-surface px-8 py-16 text-center sm:px-16">
+            <div className="relative z-10 mx-auto max-w-2xl">
+              <span className="text-sm font-semibold uppercase tracking-wider text-primary">
+                Got something to sell?
+              </span>
+
+              <h2 className="mt-4 text-3xl font-bold text-text-primary sm:text-4xl">
+                Give Your Items a
+                <span className="text-primary"> New Home.</span>
+              </h2>
+
+              <p className="mt-5 leading-7 text-text-secondary">
+                List your items, connect with fellow students, and find buyers
+                right within your campus community.
+              </p>
+
+              <Link
+                to="/create-listing"
+                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-primary px-7 py-3 font-semibold text-white transition hover:bg-primary-hover"
+              >
+                Start Selling
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+
+            <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
+            <div className="pointer-events-none absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-primary/10 blur-3xl" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
